@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="heading">
+        <h1 id="heading1">Hello!</h1>
+        <h1 id="para">Power of Red 8k Resolution</h1>
+    </div>
+    <button class="btn btns" onclick="foo()">background color</button>
+    <button class="btn btns" onclick="textColors()">Text color</button>
+    <br><br><br><br>
+    <div class="image">
+        <img id="img" src="hp-slider-bg-v-raptor-desktop.jpg" width="700px">
+        <div class="buttons">
+            <button class="btn" onclick="img('show')">show</button>
+            <button class="btn" onclick="img('hide')">hide</button>
+            <button class="btn" onclick="img('small')">small</button>
+            <button class="btn" onclick="img('big')">big</button>
+        </div>
+    </div>
+    <img src="bulboff.png" id="bulb" onmouseout="off()" onmouseover="bulb()">
+    <div id="container">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum temporibus cupiditate aliquid quis
+            voluptates eveniet! Veritatis totam enim velit laudantium quibusdam minima, iusto iure possimus, magni et
+            ipsam molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sint iure temporibus quidem
+            sed vel rem a dignissimos quo pariatur distinctio quibusdam aspernatur quia exercitationem, ducimus nisi
+            atque ullam. Totam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rerum veniam, nulla voluptas
+            dolores iste facilis exercitationem perspiciatis repudiandae in minus sed illo architecto qui asperiores,
+            voluptatum dignissimos, suscipit corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            architecto dolorem hic error ducimus? Eius quae voluptatibus quam iusto, officiis, eligendi molestiae
+            corrupti est harum reprehenderit modi nemo, nam hic? Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Amet, aliquid placeat. Ab voluptatem dolorum ducimus alias iusto earum doloremque non delectus sunt
+            eveniet recusandae, ipsum repudiandae deserunt consequatur? Ut, commodi. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Earum eius quibusdam dolor laudantium inventore, consequatur consequuntur
+            perspiciatis praesentium alias quia dignissimos mollitia provident tenetur maiores possimus natus unde,
+            tempore sapiente.</p>
+        <button class="btn btns" onclick="paras()">Text Color</button>
+    </div>
+
+
+    
+
+    <!-- Questiion no:1 -->
+    <a onclick="clickme()" href="javascript:void(0)"> Click</a>
+
+    <!-- Questiion no:2 -->
+
+    <div id="mainn" class="img">
+
+        <img src="ihpne 7.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 7</h5>
+        <img src="iphone 10.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 10</h5>
+        <img src="iphone.png" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 13</h5>
+        <img src="iphone11.jpg" onclick="iphoneImages()" class="images" alt="">
+        <h5>iphone 11</h5>
+    </div>
+
+    <!-- Questiion no:3 -->
+
+    <div class="record">
+
+        <table>
+
+            <tr>
+                <th>Index</th>
+                <th>Namee</th>
+                <th>Class</th>
+            </tr>
+
+            <tr id="tr1">
+                <td>0</td>
+                <td>jhone</td>
+                <td>10</td>
+                <td> <button onclick="dlt()">Delete</button></td>
+            </tr>
+            <tr id="tr2">
+                <td>1</td>
+                <td>Deo</td>
+                <td>19</td>
+                <td> <button onclick="dlt2()">Delete</button></td>
+            </tr>
+            <tr id="tr3">
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td onclick="dlt3() "> <button>Delete</button></td>
+            </tr>
+            <tr id="tr4">
+                <td>3</td>
+                <td>james</td>
+                <td>8</td>
+                <td> <button onclick="dlt4()">Delete</button></td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+    <!-- Questiion no:4 -->
+
+    <div class="cat">
+        <img src="ninja-h2r-front.jpg" id="img1" onmouseout=" reverseImage()" width="300px" onmouseover="changeImage()"
+            alt="">
+    </div>
+
+    <!-- Questiion no:5 -->
+
+
+    <div class="counter">
+
+        <h1>Counter</h1>
+        <button class="btnss" onclick="dec()"> -</button>
+        <input type="text" id='myinput' value="0">
+        <button class="btnss" onclick="counter()">+</button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Questiion no:6 -->
+
+
+    <div class="details">
+
+        <p id="det">Coustumer:Name = Junaid <br> Product: Laptop <br> Prize:90000 <br>Reveiw: <a id="a1"
+                href="javascript:void(0);" onclick="see()">See More</a> </p>
+
+    </div>
+
+    <!-- Questiion no:7 -->
+
+    <div class="signup">
+        <form action="">
+
+            <input id="email" name="email" type="email" placeholder="Enter Email ">
+            <input id="pass" type="password" placeholder="Enter password">
+            <button onclick="data()">login</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
